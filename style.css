@@ -1,0 +1,114 @@
+body{
+	background: linear-gradient(-45deg, #90ee52, #dfa12d, #1bdbdb, #1699ba);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+}
+
+@keyframes gradient{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@font-face {
+    font-family: font;
+    src: url(font/MinecraftRegular-Bmg3.otf);
+}
+
+@font-face {
+    font-family: font-italic;
+    src: url(font/MinecraftItalic-R8Mo.otf);
+}
+
+img{	
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	/* -webkit-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75); */
+	box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	border-radius: 10px;
+    width: 100px;
+    height: 100px;
+	/* opacity: 0.7;
+	transition: 0.4s;
+	margin-top: 20px; */
+}
+
+img:hover{
+	opacity: 1;
+}
+
+h1{
+    font-family: font;
+	text-align: center;
+	color: black;
+    font-size: 95px;
+}
+
+h2{
+    font-family: font-italic;
+    text-align: center;
+    color: rgb(89, 89, 254);
+    font-size: 40px;
+}
+
+h3{
+    font-family: font;
+    text-align: center;
+    color: rgb(135, 135, 255);
+    font-size: 50px;
+}
+
+h4{
+    font-family: font;
+    text-align: center;
+    color: rgb(219, 70, 70);
+    font-size: 50px;
+}
+
+p{
+    font-family: font;
+	font-size: 20px;
+}
+
+hr{
+    width: 900px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: black;
+    border: 0px;
+}
+
+iframe{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 40px 10px rgba(0,0,0,0.75);
+	border-radius: 15px;
+}
+
+.info{
+	display: inline-block;
+	background-color: #1f1f1f;
+	width: 985px;
+	height: 840px;
+	border: 10px solid rgb(89, 89, 254);
+	border-radius: 20px;
+}
